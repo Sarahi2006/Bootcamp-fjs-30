@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: dimgray;
+    background-image: url("../assets/images/background-adare-restaurant.jpg");
+    background-size: cover;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+}
+
+/*Header*/
+.container .header{
+    height: 20vh;
+}
+
+/*Img Logo*/
+.container .header .img-container{
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container .header .img-container .img-logo{
+    height: 10vh;
+}
+
+/*Navbar*/
+.container .header .navbar{
+   display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.container .header .navbar .nav-item{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/*Main content*/
+.container .main-container{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.container .main-container .main-text-container{
+    color: white;
+    padding: 2rem;
+}
+
+.container .main-container .main-text{
+    font-family: "Montserrat", sans-serif;
+}
